@@ -6,8 +6,6 @@ function acharMenorPalavra(text,tam){
     for(i=1;i<tam;i++){
         if (tamPalavra > text[i].length ){
             indicePalavra = i;
-        } else if (tamPalavra == text[i].length){
-
         }
     }
     menorPalavra = text[indicePalavra];
@@ -16,4 +14,3 @@ function acharMenorPalavra(text,tam){
 let palavras = ["Mathias", "Capitão Nascimento", "Maluco do Pedaço", "Christiano", "Java"];
 let tam = palavras.length;
 acharMenorPalavra(palavras,tam);
-  
